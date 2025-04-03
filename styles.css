@@ -9,6 +9,7 @@ body {
     background-image: url("images/lake.jpg");
     background-size: cover;
     height: 430px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,19 +21,18 @@ body {
 }
 
 .heading {
-    color: white;
-    padding: 3px 12px 5px;
+    font-size: 2em;
+    padding: 0 12px;
     background-color: #5F0F40;
     border-radius: 10px;
     margin: 0 0 10px;
 }
 
 .sub-heading {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
-    width: 465px;
+    width: 430px;
     margin: 0;
-    color: white;
     padding: 4px 8px;
     background-color: #9D8189;
     border-radius: 10px;
